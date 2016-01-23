@@ -20,6 +20,8 @@ app.use(function(req, res, next){
 		next();
 });
 
+if( app.thing === null ) console.log( 'bleat!' );
+
 
 app.get('/', function(req, res){
 		res.render('home');
