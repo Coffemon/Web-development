@@ -1,4 +1,4 @@
-var Browser = require('zombie'),
+var Browser = require('phantomjs'),
 		assert = require('chai').assert;
 
 var browser;
